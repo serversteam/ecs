@@ -2,7 +2,7 @@ To RUN two app with Redis on Local with docker-compose please follow below steps
 
 1.Install Docker and Docker-compose on your system.
 
-2. Clone Git repo into your system.  git clone https://github.com/serversteam/ecs-node.git 
+2. Clone Git repo into your system.  git clone https://github.com/serversteam/ecs.git
 
 3. cd ecs-node
 
