@@ -1,11 +1,17 @@
 To RUN two app with Redis on Local with docker-compose please follow below steps.
 
 1.Install Docker and Docker-compose on your system.
+
 2. Clone Git repo into your system.  git clone https://github.com/serversteam/ecs-node.git 
+
 3. cd ecs-node
+
 4. make sure you have docker-compose.yml file downloaded from repo.
+
 5. Run docker-compose up -d    ( this will create 2 node for app and 1 redis for storge.)
+
 6. to see container  run  docker ps   ( you will see three container like below )
+
 root@ip-172-31-52-46:/opt/node-redis-docker# docker ps
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                           NAMES
 dc4d5665dbd1        ubuntu              "/bin/bash"              2 hours ago         Up 2 hours                                          sad_pasteur
